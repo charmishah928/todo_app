@@ -1,0 +1,59 @@
+body {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.container-narrow > hr {
+    margin: 2rem 0;
+}
+
+.header,
+.footer {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.header {
+    padding-bottom: 1rem;
+}
+
+.todos {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.todos .input-group {
+    margin-top: .5em;
+}
+
+button#add-todo {
+    background: #009245;
+    border-color: #009245;
+    margin-bottom: 2em;
+}
+
+button#add-todo:hover {
+    background: #009E00;
+    border-color: #009E00;
+}
+
+h2.what-now {
+    margin-bottom: 1em;
+}
+
+.footer {
+    padding-top: 1.5rem;
+    color: #777;
+    border-top: .05rem solid #e5e5e5;
+}
+
+@media screen and (min-width: 48em) {
+    .container {
+        max-width: 46rem;
+    }
+    .header,
+    .footer {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
